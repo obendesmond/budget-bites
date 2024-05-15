@@ -1,4 +1,6 @@
 function Form() {
+  const handleSubmit = () => {};
+
   return (
     <div className="form-container">
       <div>
@@ -9,6 +11,7 @@ function Form() {
         <label htmlFor="">Number of Envelopes</label>
         <input type="number" placeholder="Number of Envelopes" />
       </div>
+      <button onClick={handleSubmit}>Submit</button>
     </div>
   );
 }

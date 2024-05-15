@@ -4,16 +4,28 @@
 }
 body {
   background-color: rgb(0, 0, 101);
-  color: white;
-}
-
-.app {
-  padding: 5%;
 }
 
 .form-container {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+.form-container button {
+  padding: 10px 15px;
+  flex: 1;
+  border: none;
+  background-color: rgb(0, 0, 101);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .form-container > div {
@@ -25,4 +37,6 @@ body {
 input {
   padding: 6px 10px;
   outline: none;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 101, 0.4);
 }
