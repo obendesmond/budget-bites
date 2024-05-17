@@ -3,7 +3,7 @@
 function Form({ amount, setAmount, envelopes, setEnvelopes, handleSubmit }) {
   return (
     <div className="form-container">
-      <div>
+      <div className="form-input">
         <label htmlFor="">Budget Amount</label>
         <input
           type="number"

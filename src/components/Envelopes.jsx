@@ -1,12 +1,12 @@
+import "./Envelope.css";
 
-function Envelope(){
-    return(
-        <div>
-            <span>$20</span>
-            <input type="number" placeholder="Amount Spent..."/>
-
-        </div>
-    )
+function Envelope({valueEnv}) {
+  return (
+    <div className="env-container">
+      <h1>${valueEnv}</h1>
+      <input type="number" placeholder="Enter Amount Spent..." />
+    </div>
+  );
 }
 
-export default Envelope
+export default Envelope;
